@@ -9,5 +9,6 @@ jar_library(
   name='thrift-0.9.2',
   jars=[
     jar('org.apache.thrift', 'libthrift', '0.9.2'),
-  ],
+   ],
+  # scope='forced',
 )
