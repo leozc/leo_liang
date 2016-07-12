@@ -1,4 +1,4 @@
-A minimal example repo to try to sort out issues raised [here]().
+A minimal example repo to try to sort out issues raised [here](https://goo.gl/w5Tbq0).
 
 To test:
 ```
