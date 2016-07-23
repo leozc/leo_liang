@@ -17,3 +17,11 @@ python_binary(name='python3',
   source='python_version.py',
   compatibility=['>=3.5'],
 )
+
+python_binary(name='webserver',
+  dependencies=[
+   '3rdparty/python3:aiohttp', # python3 dependencies
+  ],
+  source='webserver.py',
+  compatibility=['>=3.5'],
+)
